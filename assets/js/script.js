@@ -205,6 +205,48 @@ for(let btn of closebtn){
   });
 }
 
+/**
+ * TESTIMONIAL SLIDER
+ */
+
+const testiSlider = document.querySelector("[data-testi-slider]");
+const testiSliderItems = document.querySelectorAll("[data-testi-slider-item]");
+const testiSliderPrevBtn = document.querySelector("[testi-data-prev-btn]");
+const testiSliderNextBtn = document.querySelector("[testi-data-next-btn]");
+
+let currentTestiSlidePos = 0;
+let lastActiveTestiSliderItem = heroSliderItems[0];
+
+const updateTestiSliderPos = function () {
+  lastActiveTestiSliderItem.classList.remove("active");
+  testiSliderItems[currentTestiSlidePos].classList.add("active");
+  lastActiveTestiSliderItem = testiSliderItems[currentTestiSlidePos];
+}
+
+const slideTestiNext = function () {
+  if (currentTestiSlidePos >= testiSliderItems.length - 1) {
+    currentTestiSlidePos = 0;
+  } else {
+    currentTestiSlidePos++;
+  }
+
+  updateTestiSliderPos();
+}
+
+testiSliderNextBtn.addEventListener("click", slideTestiNext);
+
+const slideTestiPrev = function () {
+  if (currentTestiSlidePos <= 0) {
+    currentTestiSlidePos = testiSliderItems.length - 1;
+  } else {
+    currentTestiSlidePos--;
+  }
+
+  updateTestiSliderPos();
+}
+
+testiSliderPrevBtn.addEventListener("click", slideTestiPrev);
+
 
 
 /**
