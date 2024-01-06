@@ -84,13 +84,11 @@
     </div>
   </div>
 
-  <!--this is here where-->
-
   <header class="header" data-header>
     <div class="container">
 
       <a href="#" class="logo">
-        <img src="./assets/images/koe-logo.png" width="160" height="50" alt="Koe logo">
+        <img src="./assets/images/koe-logo.png" width="140rem" height="50" alt="Koe logo" class="logo-img">
       </a>
 
       <nav class="navbar" data-navbar>
@@ -664,7 +662,7 @@
               <option value="flavouredCoffee" data-image="flavouredCoffee.jpg">Flavored Coffee</option>
             </select>
               <br/>
-              <img id="coffeeImage" src="" alt="Coffee Image" width="468px" height ="200px" style="border-radius: 10px; margin: auto;">
+              <img id="coffeeImage" src="" alt="Coffee Image" width="70%" height ="200px" style="border-radius: 10px; margin: auto;">
            
           </div>
     
@@ -676,7 +674,7 @@
               <option value="blue" data-image="blue.jpg">Blue Cheese</option>
             </select>
             <br/>
-            <img id="cheeseImage" src="" alt="Cheese Image" width="468px" height ="300px" style="border-radius: 10px; margin: auto;">
+            <img id="cheeseImage" src="" alt="Cheese Image" width="70%" height ="300px" style="border-radius: 10px; margin: auto;">
           </div>
           <b><br/>
           <div class="pairing-result-text hover:shine " id="pairingResult" style="color: white; border: 4px  dotted; border-color: black; border-radius: 5px;">
@@ -818,6 +816,43 @@
 
           </li>
 
+          <li class="slider-item" data-special-dish-slider-item>
+
+            <div class="combine">
+          
+              <div class="special-dish-banner-sunset">
+                <img src="./assets/images/sunset-cafe.jfif" width="940" height="900" loading="lazy"
+                  alt="special dish" class="img-cover">
+              </div>
+          
+              <div class="special-dish-content bg-black-10">
+                <div class="container">
+          
+                  <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge"
+                    class="abs-img">
+          
+                  <p class="section-subtitle label-2">Scenic Views</p>
+          
+                  <h2 class="headline-1 section-title">Sunset Sky View</h2>
+          
+                  <p class="section-text">
+                    As the sun sets, our open deck provides an
+          unparalleled view, casting a warm glow over the surroundings. Located on VIP Road, our prime location
+          offers an exquisite panorama during dusk, making your evenings truly magical.
+                  </p>
+          
+                  <!-- <div class="wrapper">
+                    <del class="del body-3">$40.00</del>
+          
+                    <span class="span body-1">$20.00</span>
+                  </div> -->
+          
+                </div>
+              </div>
+          
+            </div>
+          
+          </li>
         </ul>
 
         <button class="slider-btn prev" aria-label="slide to previous" data-hero-prev-btn>
@@ -1041,31 +1076,70 @@
 <!-- 
         - #TESTIMONIALS
       -->
+      <section class="hero text-center" aria-label="home" id="home">
 
-      <section class="section testi-carousel text-center has-bg-image"
-        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
-        <div class="container">
-          <div class="testimonials-container" id="testimonials-container">
-            <div class="testimonial active">
-              <div class="quote">”</div>
-              <p class="headline-2 testi-text">
-                I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
-                extraordinary.
-              </p>
-              <div class="wrapper">
-                <div class="separator"></div>
-                <div class="separator"></div>
-                <div class="separator"></div>
-              </div>
-              <div class="profile">
-                <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
-                  class="img">
-                <p class="label-2 profile-name">Sam Jhonson</p>
-              </div>
+        <ul class="testi-slider" data-testi-slider>
+
+          <li class="slider-item active" data-testi-slider-item>
+            
+            <div class="slider-bg">
+              <img src="./assets/images/testimonial-bg.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
-            <!-- Add more testimonials as needed -->
-          </div>
-        </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Samar Patel</p>
+
+            <img src="./assets/images/testi-avatar-4.jfif" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
+            <p class="headline-2 testi-text">
+              I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
+              extraordinary.            
+            </p>
+
+          </li>
+
+          <li class="slider-item active" data-testi-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/testimonial-bg.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Yash Gupta</p>
+
+            <img src="./assets/images/testi-avatar-2.jfif" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
+            <p class="headline-2 testi-text">
+              Thank you for the fantastic event last weekend. The atmosphere, the company, and especially the food were all outstanding. I truly enjoyed every moment.
+            </p>
+
+          </li>
+          <li class="slider-item active" data-testi-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/testimonial-bg.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Jaimin Pandya</p>
+
+            <img src="./assets/images/testi-avatar-3.jfif" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
+            <p class="headline-2 testi-text">
+              I wanted to express my gratitude for the amazing dinner experience at your restaurant. The flavors and presentation were exquisite. It was a delightful culinary journey.
+            
+            </p>
+
+          </li>
+
+
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" testi-data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" testi-data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        
+
       </section>
 
 
