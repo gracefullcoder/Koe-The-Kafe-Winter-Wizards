@@ -10,7 +10,7 @@
   <meta name="title" content="Koe - The Kafe ">
   <meta name="description" content="This is a cafe html template">
 
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/logo1.jpg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,12 +34,12 @@
 
 <body id="top">
 
-  <div class="preload" data-preaload>
+  <div class="preload" data-preaload >
     <div class="circle"></div>
     <p class="text">Koe - The Kafe</p>
   </div>
 
-  <div class="topbar">
+  <div class="topbar" >
     <div class="container">
 
       <address class="topbar-item">
@@ -73,7 +73,7 @@
 
       <div class="separator"></div>
 
-      <a href="mailto:To add" class="topbar-item link">
+      <a href="mailto:koethekafe@gmail.com" class="topbar-item link">
         <div class="icon">
           <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
         </div>
@@ -84,10 +84,10 @@
     </div>
   </div>
 
-  <header class="header" data-header>
+  <header class="header" data-header  >
     <div class="container">
 
-      <a href="#" class="logo">
+      <a href="login copy.html" class="logo" target = "_blank">
         <img src="./assets/images/koe-logo.png" width="140rem" height="50" alt="Koe logo" class="logo-img">
       </a>
 
@@ -135,11 +135,12 @@
             </a>
           </li>
 
+
           <li class="navbar-item">
-            <a href="#" class="navbar-link hover-underline">
+            <a href="login.html" target = "_blank" class="navbar-link hover-underline">
               <div class="separator"></div>
 
-              <span class="span">Contact</span>
+              <span class="span">Admin Login</span>
             </a>
           </li>
 
@@ -155,7 +156,7 @@
 
           <p class="body-4 navbar-text">Open: 12.00 pm to 12.30 am</p>
 
-          <a href="mailto:add mail" class="body-4 sidebar-link">add mail</a>
+          <a href="mailto:koethecafe@gmail.com" class="body-4 sidebar-link">koethecafe@gmail.com</a>
 
           <div class="separator"></div>
 
@@ -168,7 +169,7 @@
 
       </nav>
 
-      <a href="#" class="btn btn-secondary">
+      <a href="#reservation" class="btn btn-secondary">
         <span class="text text-1">Find A Table</span>
 
         <span class="text text-2" aria-hidden="true">Find A Table</span>
@@ -188,7 +189,7 @@
   <main>
     <article>
       
-      <section class="hero text-center" aria-label="home" id="home">
+      <section class="hero text-center" aria-label="home" id="home"  >
 
         <ul class="hero-slider" data-hero-slider>
 
@@ -219,10 +220,10 @@
           <li class="slider-item" data-hero-slider-item>
 
             <div class="slider-bg">
-              <img src="./assets/images/hero-slider-2.jpeg" width="1880" height="950" alt="" class="img-cover">
+              <img src="./assets/images/hero-slider-4.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
 
-            <p class="label-2 section-subtitle slider-reveal">ROYAL INDULGENCEE</p>
+            <p class="label-2 section-subtitle slider-reveal">ROYAL INDULGENCE</p>
 
             <h1 class="display-1 hero-title slider-reveal">
               Culinary Symphony for<br>
@@ -267,16 +268,16 @@
 
         </ul>
 
-        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn style="left: 5%;">
           <ion-icon name="chevron-back"></ion-icon>
         </button>
 
-        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn style="right: 5% ;">
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
         <a href="#reservation" class="hero-btn has-after">
-          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon" >
 
           <span class="label-2 text-center span">Book A Table</span>
         </a>
@@ -287,7 +288,7 @@
         - #SERVICE
       -->
 
-      <section class="section service bg-black-10 text-center" id="menu-section" aria-label="service">
+      <section class="section service bg-black-10 text-center" id="menu-section" aria-label="service"  >
         <div class="container menu-container">
 
           <p class="section-subtitle label-2">Indulge in Divine Delights</p>
@@ -307,20 +308,20 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine" >
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/soup.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
                         class="img-cover">
                     </figure>
                   </a>
 
-                  <div class="card-content">
+                  <div class="card-content" >
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Soups & Salads</a>
+                      <a >Soups & Salads</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu1">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu1">View Menu</a>
 
                   </div>
 
@@ -332,7 +333,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/appetizer.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
                         class="img-cover">
@@ -342,10 +343,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Appetizers (Include global and oriental appetizers)</a>
+                      <a>Appetizers (Include global and oriental appetizers)</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu2">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu2">View Menu</a>
 
                   </div>
 
@@ -356,7 +357,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/pasta.jpg" width="285" height="336" loading="lazy" alt="Drinks"
                         class="img-cover">
@@ -366,10 +367,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Pasta & Rice Dishes (Incorporate pasta, risotto, and rice bowls)</a>
+                      <a>Pasta & Rice Dishes (Incorporate pasta, risotto, and rice bowls)</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu3">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu3">View Menu</a>
 
                   </div>
 
@@ -380,7 +381,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/curry.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
                         class="img-cover">
@@ -390,10 +391,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Curries</a>
+                      <a>Curries</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu4">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu4">View Menu</a>
 
                   </div>
 
@@ -405,7 +406,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/sandwich.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
                         class="img-cover">
@@ -415,10 +416,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Sandwiches (Combine sourdough and croissant sandwiches)</a>
+                      <a>Sandwiches (Combine sourdough and croissant sandwiches)</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu5">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu5">View Menu</a>
 
                   </div>
 
@@ -429,7 +430,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/burger.jpg" width="285" height="336" loading="lazy" alt="Drinks"
                         class="img-cover">
@@ -439,10 +440,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Slides & Burgers with Fries</a>
+                      <a>Slides & Burgers with Fries</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu6">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu6">View Menu</a>
 
                   </div>
 
@@ -454,7 +455,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/pizza.jpg" width="285" height="336" loading="lazy" alt="Drinks"
                         class="img-cover">
@@ -464,10 +465,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Pizza</a>
+                      <a>Pizza</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu7">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu7">View Menu</a>
 
                   </div>
 
@@ -480,7 +481,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/beverages.jpg" width="285" height="336" loading="lazy" alt="Drinks"
                         class="img-cover">
@@ -490,10 +491,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Beverages (Hot, Cold, Mocktails)</a>
+                      <a>Beverages (Hot, Cold, Mocktails)</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu8">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu8">View Menu</a>
 
                   </div>
 
@@ -504,7 +505,7 @@
               <div class="swiper-slide">
                 <div class="service-card">
 
-                  <a href="#" class="has-before hover:shine">
+                  <a class="has-before hover:shine">
                     <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
                       <img src="./assets/menu-images/cheesecake.jpg" width="285" height="336" loading="lazy" alt="Drinks"
                         class="img-cover">
@@ -514,10 +515,10 @@
                   <div class="card-content">
 
                     <h3 class="title-4 card-title">
-                      <a href="#">Desserts</a>
+                      <a>Desserts</a>
                     </h3>
 
-                    <h3 class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu9">View Menu</h3>
+                    <a href="#menu-section" class="btn-text btn-view-menu hover-underline label-2" id="btn-view-menu9">View Menu</a>
 
                   </div>
 
@@ -541,7 +542,7 @@
 
 
       <!-- Countdown Timer Section -->
-      <section class="section countdown bg-black-10 text-center" aria-label="countdown" id = "workshop">
+      <section class="section countdown bg-black-10 text-center" aria-label="countdown" id = "workshop"   >
         <div class="container">
       
           <p class="section-subtitle label-2">Join Our Coffee Workshop</p>
@@ -568,13 +569,14 @@
           </div>
       
           <p class="section-text">
+            The coffee workshop typically involves hands-on sessions or demonstrations where participants learn about coffee cultivation, processing, brewing techniques, and tasting. Experts guide attendees through the nuances of selecting beans, roasting, and various brewing methods. 
             Don't miss out on this exciting coffee workshop. Sign up now!
           </p>
 
     <!-- Signup Form -->
-    <form id="signupForm" class="signup-form" action="/submit-form" method="post">
+    <form id="signupForm" class="signup-form" action="/signup" method="post">
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
+      <input type="text" id="name" name="n1" required>
 
       <label for="email">Email:</label>
       <input type="email" id="email" name="email" required>
@@ -584,7 +586,9 @@
         <span class="text text-2" aria-hidden="true">Sign Up</span>
       </button>
     </form>
-    <script>
+    <br>
+    <a href="login.html" target = "_blank" class="headline-1 section-title"><p style="font-size: x-large;">Admin Login</p></a>
+    <!-- <script>
       document.addEventListener('DOMContentLoaded', function () {
           const form = document.getElementById('signupForm');
   
@@ -610,7 +614,7 @@
                   });
           });
       });
-  </script>
+  </script> -->
   </div>
 </section>
 
@@ -619,13 +623,15 @@
         - #ABOUT
       -->
       <section class="section about text-center" aria-labelledby="about-label" id="about">
-        <div class="container about">
+        <div class="container about" style="max-width: 1400px;">
           <figure class="about-banner" id="slideshow-container">
             <!-- Main banner images -->
-            <img class="banner-image" src="./assets/images/koe line.jpg" width="300" height="200" loading="lazy" alt="">
-            <img class="banner-image" src="./assets/images/coffeeroaster.jpg" width="300" height="200" loading="lazy" alt="">
+            <img class="banner-image" src="./assets/images/koe line.jpg"  loading="lazy" alt="">
+            <!-- <img class="banner-image" src="./assets/images/coffeeroaster.jpg" width="300" height="200" loading="lazy" alt=""> -->
             <!-- Koe logo -->
+            
             <div class="abs-img abs-img-2 has-before">
+              
               <img src="./assets/images/koe-logo.png" width="133" height="134" loading="lazy" alt="">
             </div>
           </figure>
@@ -636,12 +642,35 @@
               <br/>
               Bonjour Surat! Visit our café to experience the finest French cuisine and the allure of a French café.
               <br/> <br/>
-              Bringing to you, a <b>state-of-the-art Coffee Roastery</b> <br/>at Koe’s Rooftop Kafe! ☕️✨
+              Bringing to you, a <b>state-of-the-art Coffee Roastery</b>at Koe’s Rooftop Kafe! ☕️✨
               <br/> <br/>
-              Coffee Beans imported from across the best coffee estates in India, roasted and blended <b>in-house</b> at Koe. 🧑🏽‍🍳
+              The inception of Kôė was to create a micro scale coffee roasting and food curation experience, with a serene ambience to make the whole experience a complete package for the clientele.
             </p>
             <div class="contact-label">Book Through Call</div>
-            <a href="tel:+91 9898989898" class="body-1 contact-number hover-underline">+91 9898989898</a>
+            <a href="tel:+91 96246 96846" class="body-1 contact-number hover-underline">+91 96246 96846</a>  
+          </div>
+        </div>
+        <div class="bread-and-cheese">
+          <div class="headline-2">
+            Do check out our collection of breads and cheeses
+          </div>
+          <div class="combine-bread-and-cheese">
+            <div class="bread">
+              <a href="./cheese and bread final/cheese and bread final/bread.html" target="_blank" class="has-before">
+                <img src="./cheese and bread final/cheese and bread final/bread_thumbnail.jpeg" width="246" height="452" class="bread-and-cheese-img">
+              </a>
+              <div class="bread-heading headline-2">
+                Breads
+              </div>
+            </div>
+            <div class="cheese">
+              <a href="./cheese and bread final/cheese and bread final/cheese.html" target="_blank" class="has-before ">
+                <img src="./cheese and bread final/cheese and bread final/cheese_thumbnail.jpeg" width="246" height="212" class="bread-and-cheese-img">
+              </a>
+              <div class="cheese-heading headline-2">
+                Cheeses
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -687,11 +716,189 @@
 
       
 
-      <!-- 
+       <!-- 
         - #SPECIAL DISH
       -->
 
-      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+      <section class="slider-container-special-dish"  style="background-color: hsla(40, 12%, 5%, 1);">
+        <div class="special-container">
+          <div class="swiper special_swiper">
+            <div class="swiper-wrapper">
+              
+              
+              <div class="swiper-slide">
+                <div class="special-dish text-center" aria-labelledby="dish-label">
+
+                  <div class="special-dish-banner">
+                    <img src="./assets/images/pizza.jfif" style = "padding:0rem;" loading="lazy" alt="special dish"
+                      class="special-img">
+                  </div>
+          
+                  <div class="special-dish-content bg-black-10">
+                    <div class="container">
+          
+                      <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+          
+                      <p class="section-subtitle label-2">SPECIALITIES</p>
+          
+                      <h2 class="headline-1 section-title">In-house
+                        baked products</h2>
+          
+                      <p class="section-text">
+                        Indulge in the heavenly flavors of our freshly baked delights. From artisan bread to delectable pastries, our in-house baked products are crafted with love and perfection.
+                      </p>
+          
+
+          
+                    </div>
+                  </div>
+                  <!-- <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1"> -->
+                  <img src="./assets/images/shape-9.png" style="transform:translateY(15%) ;" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+                </div>
+          
+              </div>
+
+
+
+              <div class="swiper-slide">
+                <div class="special-dish text-center" aria-labelledby="dish-label">
+
+                  <div class="special-dish-banner">
+                    <img src="./assets/images/coffeeroaster.jpg" style = "padding:0rem;" loading="lazy" alt="special dish" 
+                    class="special-img">
+                  </div>
+          
+                  <div class="special-dish-content bg-black-10">
+                    <div class="container">
+    
+                      <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge"
+                        class="abs-img">
+    
+                      <p class="section-subtitle label-2">Speciality</p>
+    
+                      <h2 class="headline-1 section-title">Own Coffee Roasting Machine</h2>
+    
+                      <p class="section-text">
+                        Immerse yourself in the rich aroma and distinctive flavors of our coffee, freshly roasted in-house. Our
+                  state-of-the-art coffee roasting machine ensures a coffee experience like no other.
+                      </p>
+    
+                      <!-- <div class="wrapper">
+                        <del class="del body-3">$40.00</del>
+    
+                        <span class="span body-1">$20.00</span>
+                      </div> -->
+    
+                      
+    
+                    </div>
+                  </div>
+          
+                  <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+          
+                  <!-- <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2"> -->
+          
+                </div>
+          
+              </div>
+
+
+
+
+              <div class="swiper-slide">
+                <div class="special-dish text-center" aria-labelledby="dish-label">
+
+                  <div class="special-dish-banner">
+                    <img src="./assets/images/about-banner.jpg" style = "padding:0rem;" loading="lazy" alt="special dish" 
+                    class="special-img">
+                  </div>
+          
+                  <div class="special-dish-content bg-black-10">
+                    <div class="container">
+      
+                      <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge"
+                        class="abs-img">
+      
+                      <p class="section-subtitle label-2">Streaming</p>
+      
+                      <h2 class="headline-1 section-title">Live Streaming of Cricket Matches and TV Shows</h2>
+      
+                      <p class="section-text">
+                        Enjoy your favorite sports matches and TV shows live at our cafe. Our live streaming events create a
+                        vibrant atmosphere, making your visit a delightful and entertaining experience.
+                      </p>
+      
+                      <!-- <div class="wrapper">
+                        <del class="del body-3">$40.00</del>
+      
+                        <span class="span body-1">$20.00</span>
+                      </div> -->
+       
+                    </div>
+                  </div>
+          
+                  <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+          
+                  <!-- <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2"> -->
+          
+                </div>
+          
+              </div>
+
+
+
+
+
+              <div class="swiper-slide">
+                <div class="special-dish text-center" aria-labelledby="dish-label">
+
+                  <div class="special-dish-banner">
+                    <img src="./assets/images/sunset-2.jpg" style = "padding:0rem;" loading="lazy" alt="special dish"
+                    class="special-img">
+                  </div>
+          
+                  <div class="special-dish-content bg-black-10">
+                    <div class="container">
+              
+                      <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge"
+                        class="abs-img">
+              
+                      <p class="section-subtitle label-2">Scenic Views</p>
+              
+                      <h2 class="headline-1 section-title">Sunset Sky View</h2>
+              
+                      <p class="section-text">
+                        As the sun sets, our open deck provides an
+              unparalleled view, casting a warm glow over the surroundings. Located on VIP Road, our prime location
+              offers an exquisite panorama during dusk, making your evenings truly magical.
+                      </p>
+              
+                    </div>
+                  </div>
+          
+                  <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+          
+                  <!-- <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2"> -->
+          
+                </div>
+          
+              </div>
+
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- <section class="special-dish text-center" aria-labelledby="dish-label">
 
         <ul class="special-dish-slider" data-special-dish-slider>
 
@@ -700,7 +907,7 @@
             <div class="combine">
 
               <div class="special-dish-banner">
-                <img src="./assets/images/pizza.jfif" width="940" height="900" loading="lazy"
+                <img src="./assets/images/pizza.jfif" style = "width:940px;height:900px;" loading="lazy"
                   alt="special dish" class="img-cover">
               </div>
 
@@ -719,12 +926,12 @@
                     our in-house baked products are crafted with love and perfection.
                   </p>
 
-                 <!-- <div class="wrapper">
+                 <div class="wrapper">
                     <del class="del body-3">$40.00</del>
 
                     <span class="span body-1">$20.00</span>
                   </div>
-                -->
+                
                   
 
                 </div>
@@ -739,7 +946,7 @@
             <div class="combine">
 
               <div class="special-dish-banner-own-machine">
-                <img src="./assets/images/coffeeroaster.jpg" width="940" height="900" loading="lazy"
+                <img src="./assets/images/coffeeroaster.jpg" style = "width:940px;height:900px;" loading="lazy"
                   alt="special dish" class="img-cover">
               </div>
 
@@ -758,11 +965,11 @@
               state-of-the-art coffee roasting machine ensures a coffee experience like no other.
                   </p>
 
-                  <!-- <div class="wrapper">
+                  <div class="wrapper">
                     <del class="del body-3">$40.00</del>
 
                     <span class="span body-1">$20.00</span>
-                  </div> -->
+                  </div>
 
                   
 
@@ -778,7 +985,7 @@
             <div class="combine">
 
               <div class="special-dish-banner">
-                <img src="./assets/images/about-banner.jpg" width="940" height="900" loading="lazy"
+                <img src="./assets/images/about-banner.jpg" style = "width:940px;height:900px;" loading="lazy"
                   alt="special dish" class="img-cover">
               </div>
   
@@ -797,11 +1004,11 @@
                     vibrant atmosphere, making your visit a delightful and entertaining experience.
                   </p>
   
-                  <!-- <div class="wrapper">
+                   <div class="wrapper">
                     <del class="del body-3">$40.00</del>
   
                     <span class="span body-1">$20.00</span>
-                  </div> -->
+                  </div> 
   
                   <a href="#" class="btn btn-primary">
                     <span class="text text-1">View All Menu</span>
@@ -821,7 +1028,7 @@
             <div class="combine">
           
               <div class="special-dish-banner-sunset">
-                <img src="./assets/images/sunset-cafe.jfif" width="940" height="900" loading="lazy"
+                <img src="./assets/images/sunset-2.jpg" style="width: 80%; height: 80%" loading="lazy"
                   alt="special dish" class="img-cover">
               </div>
           
@@ -841,12 +1048,6 @@
           offers an exquisite panorama during dusk, making your evenings truly magical.
                   </p>
           
-                  <!-- <div class="wrapper">
-                    <del class="del body-3">$40.00</del>
-          
-                    <span class="span body-1">$20.00</span>
-                  </div> -->
-          
                 </div>
               </div>
           
@@ -863,11 +1064,11 @@
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
-        <!-- <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1"> -->
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1"> 
 
         <img src="./assets/images/shape-9.png" width="351" height="562" loading="lazy" alt="" class="shape shape-2">
 
-      </section>
+      </section> -->
 
 
 
@@ -881,7 +1082,7 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form action="/booking" class="form-left" method="post">
 
               <h2 class="headline-1 text-center">Online Reservation</h2>
 
@@ -891,7 +1092,7 @@
               </p>
 
               <div class="input-wrapper">
-                <input type="text" style="background-color:rgb(43, 33, 33);" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
+                <input type="text"  name="name" placeholder="Your Name" autocomplete="off" class="input-field" style="background-color: rgb(27, 28, 29);">
 
                 <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
               </div>
@@ -917,7 +1118,7 @@
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
 
-                  <input type="date" name="reservation-date" class="input-field">
+                  <input type="date" name="reservationdate" class="input-field">
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
@@ -964,7 +1165,7 @@
 
               <p class="contact-label">Booking Request</p>
 
-              <a href="tel:+919898989898" class="body-1 contact-number hover-underline">9898989898</a>
+              <a href="tel:+9196246 96846" class="body-1 contact-number hover-underline">+91 96246 96846</a>
 
               <div class="separator"></div>
 
@@ -1088,7 +1289,7 @@
 
             <p class="label-2 section-subtitle slider-reveal">Samar Patel</p>
 
-            <img src="./assets/images/testi-avatar-4.jfif" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson" class="img">
             <p class="headline-2 testi-text">
               I wanted to thank you for inviting me down for that amazing dinner the other night. The food was
               extraordinary.            
@@ -1130,11 +1331,11 @@
 
         </ul>
 
-        <button class="slider-btn prev" aria-label="slide to previous" testi-data-prev-btn>
+        <button class="slider-btn prev" aria-label="slide to previous" testi-data-prev-btn style="left: 5% ;">
           <ion-icon name="chevron-back"></ion-icon>
         </button>
 
-        <button class="slider-btn next" aria-label="slide to next" testi-data-next-btn>
+        <button class="slider-btn next" aria-label="slide to next" testi-data-next-btn style="right: 5% ;">
           <ion-icon name="chevron-forward"></ion-icon>
         </button>
 
@@ -1324,7 +1525,7 @@
             205, International Finance Centre,<br> VIP Road, opp. Fire Station,<br> Vesu, Surat, <br>Gujarat - 395007
           </address>
 
-          <a href="mailto:add mail" class="body-4 contact-link">add mail</a>
+          <a href="mailto:koethekafe@gmail.com" class="body-4 contact-link">koethekafe@gmail.com</a>
 
           <a href="tel:+91-96246 96846" class="body-4 contact-link">Booking Request : +91 96246 96846</a>
 
@@ -1367,19 +1568,19 @@
           </li>
 
           <li>
-            <a href="..\assets\KoeCafeFood.pdf" class="label-2 footer-link hover-underline">Menus</a>
+            <a href="..\assets\KoeCafeFood.pdf" target="_blank" class="label-2 footer-link hover-underline">Menus</a>
           </li>
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">About Us</a>
+            <a href="#about" class="label-2 footer-link hover-underline">About Us</a>
           </li>
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Our Chefs</a>
+            <a href="#footer" class="label-2 footer-link hover-underline">Our Chefs</a>
           </li>
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Contact</a>
+            <a  href="tel:+91-96246 96846" class="body-4 contact-link label-2 footer-link hover-underline">Contact</a>
           </li>
 
         </ul>
@@ -1387,7 +1588,7 @@
         <ul class="footer-list">
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Facebook</a>
+            <a href="#footer" class="label-2 footer-link hover-underline">Facebook</a>
           </li>
 
           <li>
@@ -1395,11 +1596,11 @@
           </li>
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Twitter</a>
+            <a href="#footer" class="label-2 footer-link hover-underline">Twitter</a>
           </li>
 
           <li>
-            <a href="#" class="label-2 footer-link hover-underline">Youtube</a>
+            <a href="#footer" class="label-2 footer-link hover-underline">Youtube</a>
           </li>
 
           <li>
@@ -1443,6 +1644,21 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  
+  <!-- <section class="section about text-center" aria-labelledby="about-label" >
+    <div class="container about">
+        <center>
+        <iframe
+          width="800"
+          height="450"
+          style="border:0"
+          loading="lazy"
+          allowfullscreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59540.376691218!2d72.7089385216797!3d21.14150960000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be05327ccb9c45f%3A0xe73ce99228e97293!2sKOE%20-%20The%20Kafe!5e0!3m2!1sen!2sqa!4v1704047040883!5m2!1sen!2sqa"
+        ></iframe></center>
+    </div>
+  </section> -->
 
 </body>
 

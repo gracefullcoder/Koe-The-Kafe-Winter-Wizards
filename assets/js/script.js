@@ -142,6 +142,21 @@ addEventOnElements([heroSliderNextBtn, heroSliderPrevBtn], "mouseout", autoSlide
 
 window.addEventListener("load", autoSlide);
 
+
+
+var swiper = new Swiper(".special_swiper", {
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  // loop: true,
+  // speed: 1000,
+  // autoplay:{
+  //  delay:2000,
+  // },
+});
+
+
 //menu swipper
 var swiper = new Swiper(".menu_swipper", {
   slidesPerView: 3,
@@ -318,12 +333,13 @@ setInterval(updateCountdown, 1000);
 // Form submission logic
 const signupForm = document.getElementById('signupForm');
 signupForm.addEventListener('submit', function (event) {
-  event.preventDefault();
+  // event.preventDefault();
   // Handle form submission, e.g., send data to server
   // You can add your own logic here
   alert('Sign up successful!');
 });
 // script.js
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
