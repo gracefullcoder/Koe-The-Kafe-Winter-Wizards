@@ -50,12 +50,18 @@ addEventOnElements(navTogglers, "click", toggleNavbar);
 let navLinks = document.querySelectorAll(".navbar-list a");
 console.log(navLinks);
 
-for(let ele of navLinks) {
-  ele.addEventListener("click",() => {
-    console.log("got clicked");
-    toggleNavbar();
-  })
+function resizeFn() {
+  if (window.innerWidth < 1200) {
+    for (let ele of navLinks) {
+      ele.addEventListener("click", () => {
+        console.log("got clicked");
+        toggleNavbar();
+      })
+    }
+  }
 }
+window.onresize = resizeFn;
+resizeFn();
 
 
 /**
@@ -162,8 +168,8 @@ var swiper = new Swiper(".special_swiper", {
   },
   loop: true,
   speed: 1000,
-  autoplay:{
-   delay:2000,
+  autoplay: {
+    delay: 2000,
   },
 });
 
@@ -174,8 +180,8 @@ var swiper = new Swiper(".menu_swipper", {
   spaceBetween: 30,
   loop: true,
   speed: 1000,
-  autoplay:{
-   delay:2000,
+  autoplay: {
+    delay: 2000,
   },
   pagination: {
     el: ".swiper-pagination",
@@ -211,22 +217,22 @@ let closebtn = document.querySelectorAll(".cross");
 let head = document.querySelector("header");
 let itemNum;
 
-for(let btn of menuBtn){
-  
+for (let btn of menuBtn) {
+
   btn.addEventListener("click", () => {
     // console.log("clicked");
     itemNum = btn.getAttribute("id").slice(-1);
     document.body.classList.add("popup");
     menuContainer.classList.add("show-item" + itemNum);
     head.style.visibility = "hidden";
-  }); 
+  });
 }
 
-for(let btn of closebtn){
+for (let btn of closebtn) {
   btn.addEventListener("click", () => {
     // console.log(btn);
     document.body.classList.remove("popup");
-    menuContainer.classList.remove("show-item"+itemNum);
+    menuContainer.classList.remove("show-item" + itemNum);
     head.style.visibility = "visible";
   });
 }
@@ -385,10 +391,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   };
 
-    // Initial pairing update
-    updatePairing();
+  // Initial pairing update
+  updatePairing();
 
-  
+
   // Function to update pairing based on selected options
   function updatePairing() {
     // Get the selected coffee and cheese
